@@ -3,7 +3,8 @@
 # Groep:
 
 # Hier komt je code...
+my_string = "Tinus gaat op zijn tandem naar de hottentotententoonstelling"
 
-my_list = ...
+aantal_keer_t = my_string.lower().count("t")
 
-print()
+print(f"De letter 't' komt {aantal_keer_t}x voor in my_string.")

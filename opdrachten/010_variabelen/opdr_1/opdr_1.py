@@ -1,7 +1,6 @@
 # Opdracht 1
-# Naam student:
-# Groep:
+# Naam student: Ahmad Shammout
+# Groep: 
 
 # Hier komt je code...
-
-my_list = ...
+print ("wat een weertje")
