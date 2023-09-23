@@ -3,14 +3,11 @@
 # Groep:
 
 # Hier komt je code...
+# Definieer de variabele x
 x = 1
-y = ...
-print( ... )
 
-x = 2
-y = ...
-print( ... )
+# Bereken de waarde van y
+y = 4 * x**3 - 2 * x**2 - 1
 
-x = 0
-y = ...
-print( ... )
+# Geef de uitkomst weer
+print(f"De uitkomst is: {y}")
