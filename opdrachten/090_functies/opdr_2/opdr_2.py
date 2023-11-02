@@ -4,17 +4,19 @@
 
 
 def kilometers_naar_miles(km):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    miles = km / 1.609344
+    return miles
 
 def miles_naar_kilometers(miles):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    km = miles * 1.609344
+    return km
 
+# Voorbeeldgebruik van de functies
 kilometers = 1223
 miles = 867
 
-print(kilometers_naar_miles(kilometers))
-print(miles_naar_kilometers(miles))
+km = kilometers_naar_miles(kilometers)
+m = miles_naar_kilometers(miles)
+
+print(f"{kilometers} kilometers = {km} miles")
+print(f"{miles} miles = {m} kilometers")
